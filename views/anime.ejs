@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= anime.title %></title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1><%= anime.title %></h1>
+        <img src="<%= anime.images.jpg.image_url %>" alt="<%= anime.title %>">
+        <p><strong>Synopsis:</strong> <%= anime.synopsis %></p>
+        <p><strong>Score:</strong> <%= anime.score %></p>
+        <p><strong>Episodes:</strong> <%= anime.episodes %></p>
+        <a href="/">Search another anime</a>
+    </div>
+</body>
+</html>
